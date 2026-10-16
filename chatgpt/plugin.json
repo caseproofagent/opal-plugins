@@ -1,0 +1,23 @@
+{
+  "$schema": "1.0.0",
+  "name": "opal-care",
+  "extensions": {
+    "com.openai.interface": {
+      "displayName": "Opal Care",
+      "shortDescription": "I look after your website",
+      "longDescription": "I am Opal, and I look after small business websites. I watch your sites, run checks on them every day and suggest fixes when something is wrong. When a change needs your OK, I wait for you. Here you can ask me how your sites are doing, what I have done lately and what is waiting on you. If you allow it, you can also chat with me as you would in the Opal app, and say yes or no to the plans and changes I bring you. Nothing I do from here can pay for anything or change your subscription, and you can disconnect me at any time in the Opal app.",
+      "developerName": "Caseproof",
+      "category": "Productivity",
+      "websiteURL": "https://opalagent.app/",
+      "privacyPolicyURL": "https://opalagent.app/privacy/",
+      "termsOfServiceURL": "https://opalagent.app/terms/",
+      "supportURL": "https://opalagent.app/support/",
+      "logo": "./icon-512.png",
+      "starterPrompts": [
+        "What is waiting on me in Opal?",
+        "How are my sites doing?",
+        "What has Opal done on my site this week?"
+      ]
+    }
+  }
+}
